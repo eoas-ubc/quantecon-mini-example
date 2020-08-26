@@ -1,0 +1,24 @@
+name: qe-dev
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7.*
+  - sphinx=2.4.4
+  - git
+  - pip
+  - pandas
+  - matplotlib
+  - pip:
+      - quantecon
+      - sphinx_togglebutton
+      - sphinx-copybutton
+      - sphinxcontrib-bibtex
+      - sphinx-click
+      - sphinx-panels
+      - sphinx-tabs
+      - git+https://github.com/executablebooks/sphinx-book-theme.git
+      - git+https://github.com/executablebooks/jupyter-cache.git
+      - git+https://github.com/executablebooks/MyST-NB.git
+      - git+https://github.com/jupyter/jupyter-sphinx.git
+      - git+https://github.com/phaustin/jupyter-book@posix_path
