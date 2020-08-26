@@ -1,0 +1,38 @@
+> conda activate qe_dev
+(qe_dev):repos/quantecon-mini-example
+> jb build .\mini_book\
+Running Sphinx v2.4.4
+myst v0.12.3: MdParserConfig(renderer='sphinx', commonmark_only=False, dmath_enable=True, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, amsmath_enable=False, deflist_enable=False, update_mathjax=True, admonition_enable=False, disable_syntax=[], html_img_enable=False, url_schemes=None)
+building [mo]: targets for 0 po files that are out of date
+building [html]: targets for 9 source files that are out of date
+updating environment: [new config] 9 added, 0 changed, 0 removed
+WARNING: Found a content page that is not in _toc.yml: docs/_build/jupyter_execute/about_py.ipynb.
+WARNING: could not open bibtex file C:\Users\Phil\repos\quantecon-mini-example\mini_book\docs\_build\_bibliography\references.bib.
+WARNING: Found a content page that is not in _toc.yml: docs/_build/jupyter_execute/getting_started.ipynb.
+
+Encoding error:
+'charmap' codec can't encode character '\u03b8' in position 6764: character maps to <undefined>
+The full traceback has been saved in C:\Users\Phil\AppData\Local\Temp\sphinx-err-nmgmp4wy.log, if you want to report the issue to the developers.
+Traceback (most recent call last):
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\phil\minjn20\envs\qe_dev\Scripts\jb.exe\__main__.py", line 7, in <module>
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\click\core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\click\core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\click\core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\click\core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\click\core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\jupyter_book\commands\__init__.py", line 167, in build
+    builder_specific_actions(exc, builder, OUTPUT_PATH, build_type, PAGE_NAME)
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\jupyter_book\commands\__init__.py", line 329, in builder_specific_actions
+    f"There was an error in building your {cmd_type}. "
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\jupyter_book\utils.py", line 65, in _error
+    raise kind(box)
+ValueError:
