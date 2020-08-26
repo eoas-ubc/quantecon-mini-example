@@ -1,0 +1,65 @@
+# Sphinx version: 2.4.4
+# Python version: 3.7.8 (CPython)
+# Docutils version: 0.16 release
+# Jinja2 version: 2.11.2
+# Last messages:
+#   Running Sphinx v2.4.4
+#   myst v0.12.3: MdParserConfig(renderer='sphinx', commonmark_only=False, dmath_enable=True, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, amsmath_enable=False, deflist_enable=False, update_mathjax=True, admonition_enable=False, disable_syntax=[], html_img_enable=False, url_schemes=None)
+#   building [mo]: targets for 0 po files that are out of date
+#   building [html]: targets for 9 source files that are out of date
+#   updating environment:
+#   [new config]
+#   9 added, 0 changed, 0 removed
+#   reading sources... [ 11%] docs/_build/jupyter_execute/about_py
+#   reading sources... [ 22%] docs/_build/jupyter_execute/getting_started
+# Loaded extensions:
+#   sphinx.ext.mathjax (2.4.4) from c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\sphinx\ext\mathjax.py
+#   sphinxcontrib.applehelp (1.0.2) from c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\sphinxcontrib\applehelp\__init__.py
+#   sphinxcontrib.devhelp (1.0.2) from c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\sphinxcontrib\devhelp\__init__.py
+#   sphinxcontrib.htmlhelp (1.0.3) from c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\sphinxcontrib\htmlhelp\__init__.py
+#   sphinxcontrib.serializinghtml (1.1.4) from c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\sphinxcontrib\serializinghtml\__init__.py
+#   sphinxcontrib.qthelp (1.0.3) from c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\sphinxcontrib\qthelp\__init__.py
+#   alabaster (0.7.12) from c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\alabaster\__init__.py
+#   sphinx_togglebutton (0.2.2) from c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\sphinx_togglebutton\__init__.py
+#   sphinx_copybutton (0.3.0) from c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\sphinx_copybutton\__init__.py
+#   jupyter_sphinx (0.2.4) from c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\jupyter_sphinx\__init__.py
+#   myst_nb (0.9.1) from c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\myst_nb\__init__.py
+#   jupyter_book (0.7.5) from c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\jupyter_book\__init__.py
+#   sphinxcontrib.bibtex (unknown version) from c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\sphinxcontrib\bibtex\__init__.py
+#   sphinx_thebe (0.0.7) from c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\sphinx_thebe\__init__.py
+#   sphinx_comments (0.0.3) from c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\sphinx_comments\__init__.py
+#   sphinx.ext.intersphinx (2.4.4) from c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\sphinx\ext\intersphinx.py
+#   sphinx_book_theme (unknown version) from c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\sphinx_book_theme\__init__.py
+#   pydata_sphinx_theme (unknown version) from c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\pydata_sphinx_theme\__init__.py
+Traceback (most recent call last):
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\jupyter_book\sphinx.py", line 228, in build_sphinx
+    app.build(force_all, filenames)
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\sphinx\application.py", line 349, in build
+    self.builder.build_update()
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\sphinx\builders\__init__.py", line 299, in build_update
+    len(to_build))
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\sphinx\builders\__init__.py", line 311, in build
+    updated_docnames = set(self.read())
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\sphinx\builders\__init__.py", line 418, in read
+    self._read_serial(docnames)
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\sphinx\builders\__init__.py", line 439, in _read_serial
+    self.read_doc(docname)
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\sphinx\builders\__init__.py", line 479, in read_doc
+    doctree = read_doc(self.app, self.env, self.env.doc2path(docname))
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\sphinx\io.py", line 316, in read_doc
+    pub.publish()
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\docutils\core.py", line 218, in publish
+    self.settings)
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\sphinx\io.py", line 130, in read
+    self.parse()
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\docutils\readers\__init__.py", line 77, in parse
+    self.parser.parse(self.input, document)
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\myst_nb\parser.py", line 83, in parse
+    path_doc = nb_output_to_disc(ntbk, document)
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\myst_nb\parser.py", line 296, in nb_output_to_disc
+    write_notebook_output(ntbk, str(output_dir), doc_filename)
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\site-packages\jupyter_sphinx\execute.py", line 263, in write_notebook_output
+    f.write(contents)
+  File "c:\users\phil\minjn20\envs\qe_dev\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u03b8' in position 6764: character maps to <undefined>

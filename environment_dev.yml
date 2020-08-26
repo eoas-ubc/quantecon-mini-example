@@ -20,5 +20,5 @@ dependencies:
       - git+https://github.com/executablebooks/sphinx-book-theme.git
       - git+https://github.com/executablebooks/jupyter-cache.git
       - git+https://github.com/executablebooks/MyST-NB.git
-      - git+https://github.com/jupyter/jupyter-sphinx.git
+      - git+https://github.com/foster999/jupyter-sphinx.git
       - git+https://github.com/phaustin/jupyter-book@posix_path
